@@ -3,6 +3,9 @@
   "name": "web-ext example",
   "version": "1.0",
   "description": "Adds a solid red border to all webpages.",
+  "permissions": [
+    "storage"
+  ],
   "content_scripts": [
     {
       "matches": [
@@ -10,7 +13,7 @@
       ],
       "js": [
         "node_modules/webextension-polyfill/dist/browser-polyfill.js",
-        "content/borderify.js"
+        "content/content.js"
       ]
     }
   ],
