@@ -6,6 +6,7 @@
   "scripts": {
     "test": "./node_modules/.bin/web-ext lint",
     "start": "./node_modules/.bin/web-ext run",
+    "startnr": "./node_modules/.bin/web-ext run --no-reload",
     "chrome": "./node_modules/.bin/web-ext run -t chromium",
     "build": "./node_modules/.bin/web-ext build"
   },
