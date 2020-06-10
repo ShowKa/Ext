@@ -6,6 +6,6 @@ function callJapritz(tab) {
 }
 
 // tool button
-chrome.browserAction.onClicked.addListener(function (tab) {
+browser.browserAction.onClicked.addListener(function (tab) {
   callJapritz(tab);
 });
