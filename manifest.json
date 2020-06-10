@@ -20,6 +20,29 @@
   "options_ui": {
     "page": "options/options.html"
   },
+  "background": {
+    "scripts": [
+      "background/background.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": "icons/icon.png",
+    "name": "Click!"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "windows": "Ctrl+Alt+J",
+        "mac": "Command+Alt+J",
+        "chromeos": "Ctrl+Alt+J",
+        "linux": "Ctrl+Alt+J"
+      }
+    }
+  },
   "applications": {
     "gecko": {
       "id": "web-ext@example.com"
