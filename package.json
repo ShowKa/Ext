@@ -23,5 +23,8 @@
   "devDependencies": {
     "web-ext": "^4.2.0",
     "webextension-polyfill": "^0.6.0"
+  },
+  "dependencies": {
+    "kuromoji": "^0.1.2"
   }
 }
